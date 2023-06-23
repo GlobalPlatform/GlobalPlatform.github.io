@@ -1,0 +1,57 @@
+h2 {
+    font: 700 36px/40px Roboto, sans-serif;
+    margin: 0 0 40px 0;
+}
+
+h2 > span {
+    font-weight: 400 !important;
+}
+
+h4 {
+    font: 700 20px/24px Roboto, sans-serif;
+    margin: 0;
+}
+
+p {
+    font: 400 16px/20px Roboto, sans-serif;
+    margin: 0 0 30px;
+}
+
+p:not(first-child) {
+    margin: 0 !important;
+}
+
+ul, ol {
+    margin: 0;
+}
+
+ul > li,
+ol > li {
+    font: 400 16px/20px Roboto, sans-serif;
+}
+
+.spacers {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.spacer10 {
+    height: 10px;
+}
+
+.spacer15 {
+    height: 15px;
+}
+
+.spacer30 {
+    height: 30px;
+}
+
+.spacer40 {
+    height: 40px;
+}
+
+.spacer50 {
+    height: 50px;
+}
