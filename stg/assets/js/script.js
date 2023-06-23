@@ -41,9 +41,10 @@
     $(window).scroll(function() {
         var scrollTop = $(window).scrollTop();
         
+        $('#overview-parallax').css('top', -(scrollTop * 0.5) + 'px');
+        
         if(scrollTop >= 200) {
             $('a[href="#back-to-top"]').fadeIn(350);
-            $('#overview-parallax').css('top', -(scrollTop * 0.5) + 'px');
         } else {
             $('a[href="#back-to-top"]').fadeOut(350);
         }
