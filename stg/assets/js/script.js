@@ -42,10 +42,12 @@
         var scrollTop = $(window).scrollTop();
         
         $('#overview-parallax').css('top', -(scrollTop * 0.5) + 'px');
-        
-        if(scrollTop >= 200) {
+
+        if(scrollTop >= 100) {
+            $('#navigation').addClass('sticky');
             $('a[href="#back-to-top"]').fadeIn(350);
         } else {
+            $('#navigation').removeClass('sticky');
             $('a[href="#back-to-top"]').fadeOut(350);
         }
     });
